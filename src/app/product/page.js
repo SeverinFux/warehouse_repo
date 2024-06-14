@@ -39,11 +39,9 @@ export default function Product() {
         }).then(data => {
             console.log(data);
             setFormData(data)
-
         })
             .catch(error => {
                 console.log(error);
-                setError(error.message || 'Profile update failed');
             });
     }
 
