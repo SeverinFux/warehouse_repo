@@ -1,0 +1,28 @@
+.logout {
+    background-color: #ff4d4d; /* Red background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Some padding */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover and active states */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.logout:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+
+.logout:active {
+    background-color: #cc0000; /* Even darker red on active */
+    transform: scale(0.95); /* Slightly smaller on click */
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+.container {
+    padding: 200px;
+    background-color: rgba(155, 14, 171, 0.6);
+    border-radius: 3px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+.productItem {
+    background-color: #7c8ab7;
+    padding: 10px;
+    border-radius: 4px;
+  margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
